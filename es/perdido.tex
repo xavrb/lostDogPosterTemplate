@@ -1,0 +1,29 @@
+\documentclass{article} % póster en español
+\usepackage{../style/lostdog}
+% YOUR FRIEND INFO CHANGE IT ONLY HERE=================================
+\newcommand{\pupsName}{Daisy} %NAME
+\newcommand{\pupsBreed}{Dálmata} %BREED
+\newcommand{\marksInfo}{Mancha en forma de corazón en su cola, un punto negro del ojo, un blanco del ojo. Respuestas a su nombre. Necesita medicina enseguida, la familia la extraña.} %info: Marks, color, identifying info
+\newcommand{\lastSeen}{Esquina de la Quinta Avenida y Elm, Nuestra Ciudad, Estado - 12 de enero 8:00 a.m.} %where did you see them for the last time
+\newcommand{\contactPhone}{(821) 555-1212} %your cell phone
+\newcommand{\contactEmail}{DaisysFamily@gmail.com} %your mail
+\newcommand{\reward}{\$100}  %optional reward
+
+
+%======================================================
+
+\begin{document}
+	\begin{mybox}[]
+		\centering{ \fontsize{80}{70}\selectfont{ \textbf{Perro perdido}}\\ \fontsize{50}{70}\selectfont{ \textbf{Recompensa: \reward}}}
+	\end{mybox}
+	\vspace{5.5in}
+	\begin{mybox}[]
+		\centering{ \fontsize{40}{20}\selectfont{ \textbf{``\pupsName", un \pupsBreed}}\\
+			
+			\centering{ \fontsize{22}{5}\selectfont{\textbf{\marksInfo \\ Última vez visto en: \lastSeen}}}
+			
+			\fontsize{40}{50}\selectfont{ \textbf{Contacto: \contactPhone}}\\
+			
+			\fontsize{40}{70}\selectfont{ \textbf{Email: \contactEmail}}}
+	\end{mybox}
+\end{document}
