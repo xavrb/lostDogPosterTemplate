@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{./lostdog}
+% YOUR FRIEND INFO CHANGE IT ONLY HERE=================================
+\newcommand{\pupsName}{Daisy} %NAME
+\newcommand{\pupsBreed}{Dalmatian} %BREED
+\newcommand{\marksInfo}{Heart shaped spot on her tail, one eye black spot, one eye white. Answers to her name. She needs medicine right away, family misses her.} %info: Marks, color, identifying info
+\newcommand{\lastSeen}{Corner of Fifth st and Elm, Our City, State -  Jan 12th 8:00 a.m.} %where did you see them for the last time
+\newcommand{\contactPhone}{(821) 555-1212} %your cell phone
+\newcommand{\contactEmail}{DaisysFamily@gmail.com} %your mail
+\newcommand{\reward}{\$100}  %optional reward
+
+
+%======================================================
+
+\begin{document}
+	\begin{mybox}[]
+		\centering{ \fontsize{100}{70}\selectfont{ \textbf{LOST DOG}}\\ \fontsize{50}{70}\selectfont{ \textbf{REWARD: \reward}}}
+	\end{mybox}
+	\vspace{5.6in}
+	\begin{mybox}[]
+		\centering{ \fontsize{40}{20}\selectfont{ \textbf{``\pupsName" the \pupsBreed}}\\
+			
+			\centering{ \fontsize{22}{5}\selectfont{\textbf{\marksInfo \\ Last seen: \lastSeen}}}
+			
+			\fontsize{40}{50}\selectfont{ \textbf{Contact: \contactPhone}}\\
+			
+			\fontsize{40}{70}\selectfont{ \textbf{Email: \contactEmail}}}
+	\end{mybox}
+\end{document}
